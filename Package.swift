@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/moloco/moloco-sdk-ios-spm.git", exact: "4.10.0")
+        .package(url: "https://github.com/moloco/moloco-sdk-ios-spm.git", exact: "4.12.0")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkMolocoAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkMolocoAdapter/4.10.0.2.9/AnyThinkMolocoAdapter-4.10.0.2.9.zip",
-            checksum: "d1311f94779ed735ed8b4483ae16669e8170b410e6278cd4d942ea52cb12c1f1"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkMolocoAdapter/41200.2.10/AnyThinkMolocoAdapter-41200.2.10.zip",
+            checksum: "ef1b75d33f19545494425ed6e22c56fc11ea3fcc6d819d6d7cd75af67480d408"
         ),
         .target(
             name: "TPNMediationMolocoAdapterTarget",
